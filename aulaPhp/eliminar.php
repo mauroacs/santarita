@@ -1,3 +1,5 @@
 <?php
- echo "<H1>ELIMINAR.PHP</H1>";
+include('head.html');
 ?>
+<h1>Eliminar</h1>
+<a href="index.php">Voltar</a>

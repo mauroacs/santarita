@@ -1,10 +1,11 @@
 <?php
 include("./db.class.php");
 $sql = "SELECT * FROM clientes";
+
 $res = $conn->query($sql);
 include('head.html');
 ?>
-<a href="index.html">Voltar</a>
+<a href="index.php">Voltar</a>
 <br>
 
 <h1>Lista de Clientes</h1>
