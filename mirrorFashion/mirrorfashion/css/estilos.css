@@ -1,1 +1,61 @@
-d
+.sacola {
+	background-image: url(../img/sacola.png);
+	background-repeat:no-repeat;
+	background-position: top right;
+
+	font-size:14px;
+	padding-right:35px;
+	text-align:right;
+	width:140px;
+	padding-top:8px;
+	position:absolute;
+	top:0px;
+	right:0px;
+}
+
+.menu-opcoes ul { 
+	font-size:15px; 
+}
+
+.menu-opcoes ul li {
+	display:inline;
+	margin-left:0px;
+}
+
+.menu-opcoes a  { 
+	color:#003366; 
+}
+
+body { 
+color: #333;
+font-family: "Lucida Sans Unicode","Lucida Grande",sans-serif;
+}
+
+.menu_departamentos {
+	clear:left;
+}
+
+.container {
+	margin: 0 auto;
+	width: 940px;
+}
+
+header {
+	position:relative;
+}
+
+.busca h2,
+.busca form,
+.menu-departamentos h2 {
+	margin: 10px;
+}
+
+.menu-departamentos li {
+	background-color: white;
+	margin-bottom:1px;
+	padding:5px 10px;
+}
+
+.busca input[type=search]{
+	width:170px;
+}
