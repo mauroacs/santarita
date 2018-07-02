@@ -1,0 +1,135 @@
+body {
+    background: #CCC;
+    color: #ffffff;
+}
+
+#radio-player {
+    /* background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -32px -31px; */
+    height: 450px;
+    margin: 0px auto;
+    padding: 0px;
+    position: relative;
+    text-align: center;
+    width: 350px;
+}
+
+#sorriso-logo {
+    margin-top: 15px;
+}
+
+#sorriso-logo a {
+    background: transparent url("../imagens/logo-player.png") no-repeat;
+    display: block;
+    margin: 0 auto;
+    height: 96px;
+    width: 350px;
+}
+
+#listen {}
+
+#listen h1 {
+    font-family: Oswald;
+    font-size: 48px;
+}
+
+#play-box {
+    margin-top: 20px;
+}
+
+#play-btn {
+    cursor: pointer;
+    display: block;
+    height: 218px;
+    margin: 0 auto;
+    width: 218px;
+}
+
+#play-btn.play {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -459px -250px;
+}
+
+#play-btn.stop {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -687px -250px;
+}
+
+#play-btn.load {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -686px -478px;
+    height: 88px;
+    margin-bottom: 65px;
+    margin-top: 65px;
+}
+
+#vol-box {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -442px -481px;
+   /* visibility: hidden; */
+    height: 68px;
+    margin: 0 auto;
+    width: 250px;
+}
+
+#link-box {}
+
+#link-box a {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -428px -567px;
+    color: #000;
+    display: block;
+    height: 68px;
+    margin: 0 auto;
+    padding-top: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 279px;
+}
+
+#link-box a h2 {
+    font-family: Arial;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#cross-banner a {
+    background: transparent url("../imagens/sprite_new_player.png") no-repeat scroll -661px -85px;
+    display: block;
+    height: 66px;
+    margin: 0 auto;
+    width: 120px;
+}
+
+#slider-box {
+    height: 68px;
+    margin-left: 40px;
+    padding-top: 30px;
+    width: 190px;
+}
+
+.ui-slider-horizontal {
+    border-radius: 5px;
+    background: #fff;
+}
+
+.ui-slider-horizontal .ui-slider-handle {
+    top: -9px;
+    background: #fff;
+    outline: none;
+}
+.ui-slider .ui-slider-handle {
+    border-radius: 5px;
+    height: 28px;
+    width: 20px;
+
+}
+
+@media screen and (max-width: 379px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    #radio-player {
+        background: transparent;
+        margin: 0 auto;
+        padding: 0;
+        width: auto;
+
+
+    }
+}
