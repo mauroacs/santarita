@@ -41,7 +41,10 @@ body {
     display: block;
     height: 218px;
     margin: 0 auto;
-    width: 218px;
+    width: auto;
+    max-width:218px;
+
+
 }
 
 #play-btn.play {
